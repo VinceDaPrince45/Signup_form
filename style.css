@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Gotham";
+    src: url('fonts/GothamMedium.ttf');
+    font-weight:normal;
+    font-style:normal;
+}
+
+html {
+    --color-text: hsl(210, 10%, 62%);
+    --background-color: #121212;
+}
+
+html,
+body,
+label,
+input,
+button {
+    font-family: "Gotham";
+}
+
+
+
+/* .background {
+    background: url("digital-digital-art-artwork-illustration-romain-trystram-hd-wallpaper-preview.jpg")
+} */
