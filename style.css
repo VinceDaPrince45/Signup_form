@@ -10,16 +10,39 @@ html {
     --background-color: #121212;
 }
 
+body {
+    margin:0;
+    padding:0;
+}
+
+html { 
+    background: url("wallpaperflare.com_wallpaper.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 html,
 body,
 label,
 input,
 button {
     font-family: "Gotham";
+    color:var(--color-text);
 }
 
+.container {
+    display:flex;
+}
 
+.left {
+    width:30vw;
+}
 
-/* .background {
-    background: url("digital-digital-art-artwork-illustration-romain-trystram-hd-wallpaper-preview.jpg")
-} */
+.right {
+    width:70vw;
+    height:100vh;
+    background-color:var(--background-color);
+}
+
