@@ -147,3 +147,18 @@ button {
 a {
     color:rgb(6, 170, 94);
 }
+
+input:invalid,
+input:focus:invalid {
+    border-bottom: solid #b92326;
+}
+
+input:valid,
+input:focus:valid {
+    border-bottom: solid rgb(6, 170, 94);
+}
+
+input:placeholder-shown,
+input:focus:placeholder-shown {
+    border-bottom:solid black;
+}
