@@ -42,9 +42,10 @@ button {
 }
 
 .right {
-    width:70vw;
     height:100vh;
     background-color:var(--background-color);
+    display:flex;
+    flex-direction: column;
 }
 
 .logo {
@@ -57,15 +58,11 @@ button {
     font-size:3vw;
 }
 
-.right {
-    display:flex;
-    flex-direction: column;
-}
-
 .header {
     display:flex;
     flex-direction: column;
     margin-left: 50px;
+    margin-right:100px;
     margin-top:8em;
     margin-bottom:2em;
     width: 35em;
@@ -161,4 +158,12 @@ input:focus:valid {
 input:placeholder-shown,
 input:focus:placeholder-shown {
     border-bottom:solid black;
+}
+
+div > label {
+    margin-bottom:15px;
+}
+
+.header > div {
+    overflow-wrap:break-word;
 }
