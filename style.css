@@ -7,7 +7,7 @@
 
 html {
     --color-text: hsl(210, 10%, 62%);
-    --background-color: #121212;
+    --background-color: rgb(19, 23, 28);
 }
 
 body {
@@ -52,9 +52,9 @@ button {
     text-align: center;
     margin-top:25vh;
     padding:30px;
-    font-size:50px;
     font-weight:900;
     color:white;
+    font-size:3vw;
 }
 
 .right {
@@ -74,6 +74,7 @@ button {
 
 .forms {
     display:flex;
+    margin:0;
 }
 
 .leftcolumn > div {
@@ -85,3 +86,22 @@ button {
     display:flex;
     flex-direction: column;
 }
+
+fieldset {
+    border: none;
+    margin:0;
+    padding:0;
+}
+
+.background {
+    background-color: 	#2a2a2e;
+    padding-top:1.5em;
+    padding-bottom:1.5em;
+}
+
+legend,
+.forms,
+.verify {
+    padding-left: 50px;
+}
+
