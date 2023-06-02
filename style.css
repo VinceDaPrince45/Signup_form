@@ -75,16 +75,20 @@ button {
 .forms {
     display:flex;
     margin:0;
+    flex-wrap:wrap;
+    gap:2em;
 }
 
 .leftcolumn > div {
     display:flex;
     flex-direction: column;
+    width:15em;
 }
 
 .rightcolumn > div {
     display:flex;
     flex-direction: column;
+    width:15em;
 }
 
 fieldset {
@@ -105,3 +109,41 @@ legend,
     padding-left: 50px;
 }
 
+legend {
+    padding-bottom:1em;
+}
+
+.forms > div {
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+input {
+    background-color: #2a2a2e;
+    border:none;
+    border-bottom:solid black;
+}
+
+.verify {
+    padding:50px;
+}
+
+button {
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: rgb(6, 170, 94);
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+.verify > div {
+    margin-top:20px;
+}
+
+a {
+    color:rgb(6, 170, 94);
+}
