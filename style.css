@@ -131,10 +131,18 @@ button {
     padding-bottom:20px;
     padding-left:40px;
     padding-right:40px;
-    background-color: rgb(6, 170, 94);
+    background-color: var(--background-color);
     color:white;
-    border:none;
+    border:solid rgb(6, 170, 94);
     border-radius:5px;
+}
+
+button:hover {
+    background-color:rgb(6, 170, 94);
+}
+
+button:active {
+    transform:scale(1.05);
 }
 
 .verify > div {
@@ -166,4 +174,8 @@ div > label {
 
 .header > div {
     overflow-wrap:break-word;
+}
+
+:focus {
+    outline:0;
 }
