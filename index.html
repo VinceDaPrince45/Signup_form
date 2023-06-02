@@ -18,39 +18,41 @@
                 <div class="warning-2">You <em>know</em> you want to.</div>
             </div>
             <form action="#">
-                <fieldset>
-                    <legend>Let's do this!</legend>
-                    <div class="forms">
-                        <div class="leftcolumn">
-                            <div>
-                                <label for="first_name">FIRST NAME</label>
-                                <input type="text" id="first_name" name="firstname" required>
+                <div class = 'background'>
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+                        <div class="forms">
+                            <div class="leftcolumn">
+                                <div>
+                                    <label for="first_name">FIRST NAME</label>
+                                    <input type="text" id="first_name" name="firstname" required>
+                                </div>
+                                <div>
+                                    <label for="useremail">EMAIL</label>
+                                    <input type="email" id="useremail" name="useremail" required>
+                                </div>
+                                <div>
+                                    <label for="password">PASSWORD</label>
+                                    <input type="password" id="password" name="userpassword" required>
+                                </div>
                             </div>
-                            <div>
-                                <label for="useremail">EMAIL</label>
-                                <input type="email" id="useremail" name="useremail" required>
-                            </div>
-                            <div>
-                                <label for="password">PASSWORD</label>
-                                <input type="password" id="password" name="userpassword" required>
+                            <div class="rightcolumn">
+                                <div>
+                                    <label for="lastname">LAST NAME</label>
+                                    <input type="text" id="lastname" name="lastname" required>
+                                </div>
+                                <div>
+                                    <label for="phone_num">PHONE NUMBER</label>
+                                    <input type="tel" id="phone_num" name="userphone" required>
+                                </div>
+                                <div>
+                                    <label for="confirm_psw">CONFIRM PASSWORD</label>
+                                    <input type="password" id="confirm_psw" required>
+                                </div>
                             </div>
                         </div>
-                        <div class="rightcolumn">
-                            <div>
-                                <label for="lastname">LAST NAME</label>
-                                <input type="text" id="lastname" name="lastname" required>
-                            </div>
-                            <div>
-                                <label for="phone_num">PHONE NUMBER</label>
-                                <input type="tel" id="phone_num" name="userphone" required>
-                            </div>
-                            <div>
-                                <label for="confirm_psw">CONFIRM PASSWORD</label>
-                                <input type="password" id="confirm_psw" required>
-                            </div>
-                        </div>
-                    </div>
-                </fieldset>
+                    </fieldset>
+                </div>
                 <div class="verify">
                     <button>Create Account</button>
                     <div>Already have an account? <a href="#">Log in</a></div>
